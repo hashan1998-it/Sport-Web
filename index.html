@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap Template</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./scss/style.css">
 </head>
+
 <body>
-    <h1>This is it</h1>
+
+    <section class="page1">
+        <!--Nav bar-->
+            <div class="row container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light container">
+                    <a class="navbar-brand" href="#">Wumbo</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav head-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Top <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">For everyone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Preview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Licence</a>
+                            </li>
+                            <li class="nav-item d-none d-sm-block d-md-block d-lg-none">
+                                <a class="nav-link" href="#">Download</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button " class="btn dwn-btn d-md-none d-sm-none d-lg-block">Download</button>
+                </nav>
+            </div>
+        
+
+
+       <div class="row main container-fluid h-75 align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 main-head">
+                        <h1 class="main-font">Beautiful Design For <u>Social Media</u> Content</h1>
+                        <p class="pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus aperiam culpa, ipsum non repellat distinctio ut, saepe laudantium quae fuga ipsam eligendi, nobis libero? Atque iusto nihil accusamus alias maxime?</p>
+                        <div class="row container pt-3">
+                            <button type="button" class="btn btn-primary col-4 p-3 dwn-main">Download Now</button>
+                            <button type="button" class="btn btn-primary col-4 ml-3 p-3 watch-btn">See in Action</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="back.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="page2">
+
+    </section>
 
 
 
@@ -22,4 +84,5 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>

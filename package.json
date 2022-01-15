@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-template-v4",
+  "version": "1.0.0",
+  "description": "This is a V4 Bootstrap Template",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashan1998-it/Bootstrap-Template-V4.git"
+  },
+  "author": "Hashan Danushka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashan1998-it/Bootstrap-Template-V4/issues"
+  },
+  "homepage": "https://github.com/hashan1998-it/Bootstrap-Template-V4#readme"
+}

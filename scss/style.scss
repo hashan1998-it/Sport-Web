@@ -1,0 +1,46 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$base-color:#3B82F6;
+$base-light: #C6DBFF;
+$back: #BBCCEA;
+
+.page1{
+    height: 100vh;
+    background-color: $base-light;
+}
+.dwn-btn{
+    background-color: #FFFFFF;
+    color: $base-color;
+    font-weight: 600;
+}
+.head-nav{
+    margin: auto;
+}
+.navbar{
+    padding-top: 20px;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.main-head{
+    color: #193766;
+}
+.main-font{
+    font-size: 64px;
+}
+.dwn-main{
+    background-color: $base-color;
+    color: #fff;
+    font-weight: 500;
+}
+.watch-btn{
+    background-color: $back;
+    color: $base-color;
+    font-weight: 700;
+    border: none;
+}
+
+.page2{
+    height: 100vh;
+}
